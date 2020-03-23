@@ -8,7 +8,7 @@ while True:
         st += str(my_list[i])
         i += 1
     place = st.find(data)
-    count = my_list.count(data)
+    count = my_list.count(int(data))
     if place != -1:
         my_list.insert(place + count, int(data))
         print(my_list)

@@ -15,5 +15,5 @@ def int_func(word=input("Enter a word: ")):
                 pass
     second_list.pop()
     result = "".join(second_list)
-    print(result)
-int_func()
+    return result
+print(int_func())

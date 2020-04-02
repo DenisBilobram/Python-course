@@ -1,0 +1,4 @@
+some text
+more text
+1 string, size: 10 symbols.
+2 string, size: 10 symbols.
